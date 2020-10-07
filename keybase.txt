@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/musti1729
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://Musti1729.github.io
+  * I am musti1729 (https://keybase.io/musti1729) on keybase.
+  * I have a public key ASBB5dC03UTWDik9S_y9jFPTilhFYra4gijQQ7CWN4e92wo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012041e5d0b4dd44d60e293d4bfcbd8c53d38a584562b6b88228d043b0963787bddb0a",
+      "host": "keybase.io",
+      "kid": "012041e5d0b4dd44d60e293d4bfcbd8c53d38a584562b6b88228d043b0963787bddb0a",
+      "uid": "057e2fd66f39b12e33cbe4b4aba83219",
+      "username": "musti1729"
+    },
+    "merkle_root": {
+      "ctime": 1552666444,
+      "hash": "f79d8b74ddee9cbb586030688184c96f8babded69ec643bad1a59c111d1dcdfa6d2c615e3a2b3b61563aaf1e7d87b8b010540ec8f7b59a8084bd28d1b572ec00",
+      "hash_meta": "b67377f4bf894bf43705a1b3b377189b0105445711145c85dd33780e34aba659",
+      "seqno": 4956629
+    },
+    "service": {
+      "entropy": "A3bUw5t2aoIJGcejNEf2VttB",
+      "hostname": "Musti1729.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "3.0.0"
+  },
+  "ctime": 1552666471,
+  "expire_in": 504576000,
+  "prev": "80b9634d2ec0ccaeb9df77a223b06304eceadd6351a511fe56cebb59dd602a9e",
+  "seqno": 8,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgQeXQtN1E1g4pPUv8vYxT04pYRWK2uIIo0EOwljeHvdsKp3BheWxvYWTESpcCCMQggLljTS7AzK6533eiI7BjBOzq3WNRpRH+Vs67Wd1gKp7EIJ9mPJnZsyndB7zRhZQuj5V2AXtf6Q+0Rf7t7KCfik2oAgHCo3NpZ8RAL/b7Jo5wZPdnp8MZTS26oGlXZSwV370+UiUjnm+Ol11HUsSWI6pG3R4RVvrbJFgZwr2fPstaea2Z7bsCgH4RAKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIDbDRpJaWhT9DKPugGDh0s1jKHG6V5URB0n0950qZ1dao3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/musti1729
+
+==================================================================

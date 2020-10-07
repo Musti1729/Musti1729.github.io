@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Yet Another GDB Tutorial</title>
+
+</head>
+
+<body style="max-width: 42em; margin: auto; font-family: 'Comic Sans MS', sans-serif;">
+	<nav>
+	    <a href="https://musti1729.github.io/blog/.."><small>PDF</small></a>
+	</nav>
+
+<h1><center>GMP Tutorial (TODO)</center></h1>
+<hr>
+
+<main>
+
+<p>This is a very quick-and-dirty guide meant to get you started with
+the GNU Debugger, <b>gdb</b>, from the command line in a
+terminal.</p>
+
+<!-- ================================================================ -->
+<h2>Contents</h2>
+<ul>
+	<li><a href="#compiling">Compiling to use a debugger</a>
+	<li><a href="#more">More Information</a>
+	<li><a href="#license">License</a>
+	<li><a href="#starting">Starting <b class="command">gdb</b> and getting to <tt class="code">main()</tt></a>
+	<li><a href="#References">References</a>
+</ul>
+<!-- ================================================================ -->
+
+<a name="compiling"></a>
+<h2>Compiling</h2>
+
+<p>You have to tell your compiler to compile your code with symbolic
+debugging information included.  Here's how to do it with <b>gcc</b>, 
+with the <b>-g</b> switch:</p>
+
+<blockquote><p><code><pre>
+1 : #include &lt;stdio.h&gt;
+2 : #include &lt;stdlib.h&gt;
+
+3 : int main(int argc, char **argv)
+4 : {
+5 :   char *buf;
+6 :
+7 :   buf = malloc(1<<31);
+8 :
+9 :   fgets(buf, 1024, stdin);
+10:   printf(&quot;%s\n&quot;, buf);
+11:
+12:   return 1;
+13: }
+</pre></code></p></blockquote>
+
+<p>Once you've done that, you should be able to view program listings in
+the debugger.</p>
+
+<!-- ================================================================ -->
+<a name="more"></a>
+<h2>More Information</h2>
+
+<p>Check out the <a href="http://www.gnu.org/software/gdb/documentation/">Official GDB
+Documentation</a> for more information than you can shake a stick
+at!</p>
+<!-- ================================================================ -->
+
+<a name="license"></a>
+<h2>License</h2>
+<!-- ================================================================ -->
+
+<a name="starting"></a>
+<h2>Starting The Debugger</h2>
+
+
+<p>There are several ways to launch a program called <b>hello</b> in the debugger:</p>
+
+<blockquote><p><code><pre>
+prompt > a.out
+Hello World!
+Segmentation fault
+prompt >
+</pre></code></p></blockquote>
+
+<p>And here is a screenshot of what you'll see, approximately:</p>
+
+<center><img src="hellotui.png" border="0"></img></center>
+<!-- ================================================================ -->
+
+<a name="References"></a>
+<h2>References</h2>
+
+<p><a title="Beej's Quick Guide to GDB"
+              href="https://beej.us/guide/bggdb">Beej's Quick Guide to GDB</a></p>
+<a href="https://www.gnu.org/software/gdb">GDB: The GNU Project Debugger</a>
+
+
+<hr>
+<p align="center">17 Jun 2019</p>
+<p style="text-align: center; font-size:100%"><a href="https://musti1729.github.io/blog/index2.html">Back to Musti's Blog</a></p>
+
+</main>
+</body>
+</html>
