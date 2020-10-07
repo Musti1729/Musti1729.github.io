@@ -32,23 +32,23 @@
 
 
 <ul>
-<div ID="Plane" style="position:absolute">
-<img src="Musti.png" width="150" height="130">
-</div>
-<script LANGUAGE="JavaScript1.2">
-var Plane = document.getElementById('Plane');
-var wx = window.innerWidth;  var wy = window.innerHeight;
-var px = wx + 100;
-var tt = 0;
+  <div ID="Plane" style="position:absolute">
+  <img src="Musti.png" width="150" height="130">
+  </div>
+  <script LANGUAGE="JavaScript1.2">
+  var Plane = document.getElementById('Plane');
+  var wx = window.innerWidth;  var wy = window.innerHeight;
+  var px = wx + 100;
+  var tt = 0;
 
-function moveplane() {
-  tt += 0.03;
-  Plane.style.top = wy * (0.5 + 0.2 * Math.sin(tt));
-  px = px - 0.008 * wx;
-  if (px + 430 < 0) {px = wx + 100;}
-  Plane.style.left = px;}
-setInterval('moveplane()',40);
-</script>
+  function moveplane() {
+    tt += 0.03;
+    Plane.style.top = wy * (0.7);
+    px = px - 0.005 * wx;
+    if (px + 430 < 0) {px = wx + 100;}
+    Plane.style.left = px;}
+  setInterval('moveplane()',40);
+  </script>
 </ul>
 
 </body>
