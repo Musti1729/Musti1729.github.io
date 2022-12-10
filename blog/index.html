@@ -1,0 +1,55 @@
+<html>
+
+<head>
+	<title>Musti's Blog</title>
+<noscript>
+  <!-- hide animation if javascript is disabled -->
+  <style> #Plane{display:none;}</style>
+</noscript>
+
+<body style="max-width: 42em; margin: auto; font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;">
+  <nav>
+  <div align=left>
+    <a href="https://musti1729.github.io/index.html"><small>Home</small></a>
+  </div>
+  <div align=right>
+    <a href="https://musti1729.github.io/blog/feed.xml">
+      <img src="images/feed.png">
+    </a>
+  </div>
+ </nav>
+
+<h1><center>Welcome to my blog</center></h1>
+<hr>
+
+<div>
+<ul class="posts">
+
+<span><a style="font-size:17px;" href="helloworld/quote.html">Programming Quotes We Love</a></span> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 31 July 2019
+
+</ul>
+</div>
+
+<ul>
+<div ID="Plane" style="position:absolute">
+<img src="images/Captain.png" width="150" height="130">
+</div>
+<script LANGUAGE="JavaScript1.2">
+var Plane = document.getElementById('Plane');
+var wx = window.innerWidth;  var wy = window.innerHeight;
+var px = wx + 100;
+var tt = 0;
+
+function moveplane() {
+  tt += 0.03;
+  Plane.style.top = wy * (0.5 + 0.2 * Math.sin(tt));
+  px = px - 0.008 * wx;
+  if (px + 430 < 0) {px = wx + 100;}
+  Plane.style.left = px;}
+setInterval('moveplane()',40);
+</script>
+</ul>
+
+</body>
+
+</html>

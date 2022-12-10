@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Musti's blog</title>
+    <description>Musti's blog</description>
+    <link>https://Musti1729.github.io/blog/index.html</link>
+    <atom:link href="https://Musti1729.github.io/blog/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Programming Quotes We Love</title>
+        <description>
+          Some interesting programming and CS quotes
+        </description>
+        <pubDate>31 July 2019</pubDate>
+        <link>https://Musti1729.github.io/blog/helloworld/quote.html</link>
+      </item>
+    
+  </channel>
+</rss>
